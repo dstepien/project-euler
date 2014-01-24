@@ -7,22 +7,18 @@
  * @author Dawid Stępień <https://github.com/dstepien>
  */
 public class ProjectEuler_3 {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         long number = 600851475143L;
         int result = 0;
         int divisor = 2;
 
-        while(number > 1)
-        {
+        while (number > 1) {
             divisor++;
 
-            if(number % divisor == 0)
-            {
+            if (number % divisor == 0) {
                 number /= divisor;
 
-                if(result < divisor)
-                {
+                if (result < divisor) {
                     result = divisor;
                 }
 
