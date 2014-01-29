@@ -1,4 +1,6 @@
 /**
+ * Project Euler - problem 6
+ *
  * The sum of the squares of the first ten natural numbers is,
  * <p/>
  * 1^2 + 2^2 + ... + 10^2 = 385
